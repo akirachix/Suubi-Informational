@@ -156,162 +156,17 @@ text-align: left; */
   margin-bottom: 10px; /* Adjust this value as needed */
 }
 
+.andriod {
+    display: flex;
+}
+
 @media (max-width: 768px) {
   .product-card {
     width: 100%;
   }
 }
 
-/* @media (max-width:480px){
-    .product-card-description {
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 38.73px;
-    /* text-align: left; 
-    color: #0F192B;
-    /* width: 500px; 
-    height: 97px;
-    /* top: 2901px;
-    left: 707px; 
-    gap: 0px;
-    opacity: 0px;  
-    }
 
-
-  .list-container {
-    /* display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    left: 30px;
-    margin-top: 20px; /* Adjust this value as needed 
-  }
-  
-  .list-container ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .list-container li {
-    margin-bottom: 10px; /* Adjust this value as needed 
-  }
-  }
-
-
-  @media (min-width:481px) and(max-width:767px) {
-    .product-card-description {
-      font-family: Inter;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 38.73px;
-      /* text-align: left; 
-      color: #0F192B;
-      width: 633px;
-      height: 117px;
-      /* top: 2901px;
-      left: 707px; 
-      gap: 0px;
-      opacity: 0px;  
-      }
-  }
-    
-   } 
-
-  @media (min-width:768px) and (max-width:991px) {
-    .product-card-description {
-      font-family: Inter;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 38.73px;
-      /* text-align: left; 
-      color: #0F192B;
-      width: 633px;
-      height: 117px;
-      /* top: 2901px;
-      left: 707px; 
-      gap: 0px;
-      opacity: 0px;  
-      }
-  }
-
-  @media (min-width:992px) and (max-width:1199px) {
-    .product-card-description {
-      font-family: Inter;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 38.73px;
-      /* text-align: left; 
-      color: #0F192B;
-      width: 633px;
-      height: 117px;
-      /* top: 2901px;
-      left: 707px; 
-      gap: 0px;
-      opacity: 0px;  
-      }
-  }
-
-
-  @media (min-width:1200px) and (max-width:1919px) {
-    .product-card-description {
-      font-family: Inter;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 38.73px;
-      /* text-align: left; 
-      color: #0F192B;
-      width: 633px;
-      height: 117px;
-      /* top: 2901px;
-      left: 707px; 
-      gap: 0px;
-      opacity: 0px;  
-      }
-  }
-
-  @media (min-width:1920px) {
-    .product-card-description {
-      font-family: Inter;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 38.73px;
-      /* text-align: left; 
-      color: #0F192B;
-      width: 633px;
-      height: 117px;
-      /* top: 2901px;
-      left: 707px; 
-      gap: 0px;
-      opacity: 0px;  
-      }
-  }*/
-
-/* .product-heading {
-    /* text-align: center;
-    margin-bottom: 30px;
-    color: rgba(20, 58, 98, 1);
-    width: 426px; */
-/* height: 116px; */
-/* top: 1123px;*/
-/* left: 514px;  */
-/* gap: 0px;
-opacity: 0px; */
-/* font-family: Inter; */
-/* font-size: 96px;
-font-weight: 700;
-line-height: 116.18px; */
-/* text-align: center; */
-
-/*font-family: Inter;
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 116.18px;
-  text-align: center;
-  color: #143A62;
-
-
-  }*/
 @media (max-width: 480px) {
   .product-card-description {
     font-size: 15px;
@@ -348,6 +203,9 @@ line-height: 116.18px; */
     /* margin-bottom: 130px; */
     margin-top: 180px;
   }
+  .andriod {
+    flex-wrap: wrap;
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -357,6 +215,9 @@ line-height: 116.18px; */
     width: 633px;
     height: 117px;
   }
+  .andriod {
+    flex-wrap: wrap;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -411,6 +272,9 @@ line-height: 116.18px; */
     /* margin-bottom: 130px; */
     margin-top: 180px;
   }
+  /* .andriod {
+    flex-wrap: wrap;
+} */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -420,6 +284,9 @@ line-height: 116.18px; */
     width: 633px;
     height: 117px;
   }
+  /* .andriod {
+    flex-wrap: wrap;
+} */
 }
 
 @media (min-width: 1200px) and (max-width: 1919px) {
@@ -429,6 +296,7 @@ line-height: 116.18px; */
     width: 633px;
     height: 117px;
   }
+
 }
 
 @media (min-width: 1920px) {

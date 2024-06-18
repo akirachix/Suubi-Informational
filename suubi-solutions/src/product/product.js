@@ -36,24 +36,26 @@ const Product = () => {
           <div className="list-container">
             <ul>
               <li>Register</li>
-              <li>User Management System</li>
               <li>Milk Sales</li>
               <li>Report</li>
-              <li>Loan Management</li>
-              <li>Integration with Core Payment Systems</li>
-              <li>Dividends & Shares</li>
               <li>Communications</li>
+              <li>Loan Management</li>
+              <li>Dividends & Shares</li>
+              <li>User Management System</li>
+              <li>Integration with Core Payment Systems</li>
             </ul>
           </div>
         </div>
 
         <div className="product-card">
+            <div className="andriod">
           <h3 className="product-card-heading">Android App</h3>
           <div className="product-card-description-container">
             <p className="product-card-description">
               We have member tools which will enable your Sacco members to
               <b> SAVE, BORROW </b>and <b>REPAY</b> through their mobile phones.
             </p>
+          </div>
           </div>
           <div className="product-card-content">
             <img
@@ -72,10 +74,11 @@ const Product = () => {
           <h2 className="features">Features</h2>
           <div className="list-container">
             <ul>
-              <li>Setting Up profile</li>
-              <li>Loans</li>
+            <li>Loans</li>
               <li>Savings</li>
               <li>Statements</li>
+              <li>Setting Up profile</li>
+              
             </ul>
           </div>
           {/* <button className="product-card-button"></button> */}
