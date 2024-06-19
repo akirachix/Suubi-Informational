@@ -1,8 +1,12 @@
 import About from './about';
+import './App.css';
+
 
 function App() {
   return (
-    <About/>
+    <div className="App">
+      <About/>
+    </div>
   );
 }
 

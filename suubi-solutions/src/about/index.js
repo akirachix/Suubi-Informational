@@ -1,17 +1,17 @@
 import  './index.css'
-import aboutus from '../aboutimages/aboutus.jpg'
+import suubiabout from '../aboutimages/suubiabout.png'
 import quality from '../aboutimages/quality.jpeg'
 import qualitys from '../aboutimages/qualitys.png'
 import trusts from '../aboutimages/trusts.png'
 
 function About(){
     return(
-        <div>
+        <div className="container">
              <h2> About Us</h2>
         <div className='about'>
             
             <div>
-              <img src={aboutus} alt='About' className='aboutimage'></img>
+              <img src={suubiabout} alt='About' className='aboutimage'></img>
             </div>
             <div>
                 <p className='abouttext'>We have member tools which will enable<br/> your Sacco Member to save, borrow and <br/> repay through their mobile phones. </p>
