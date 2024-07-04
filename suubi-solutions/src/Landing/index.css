@@ -1,59 +1,84 @@
-/* src/Navbar.css */
-.navbar {
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
   
-  .logo-container img.logo {
-    width: 80px;
-    height: 80px;
+  :root {
+    --white-color: #fff;
+    --mainColor: #29335c;
+    --secondaryColor: #db2b39;
+    --textColor: #eee;
   }
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-left: 100px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #143A62;
-    font-size: 20px;
-  }
-
-  .landing{
-
-    background-image: url('../../public/assets/dashboard.jpg'); /* Path to your background image */
+  body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden; 
     background-size: cover;
     background-position: center;
-    min-height:863px; 
+    background-attachment: fixed;
+    color: var(--textColor);
+    text-align: center;
+    font-size: clamp(12px, 1vw, 24px);
+  }
+  
+  .banner {
+    width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    opacity:0.8;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  .banner.content {
+    max-width: 450px;
+    text-wrap: wrap;
+    display: flex;
+    gap: 2rem;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
   }
-  .welcome{
-    font-size: 50px;
-    margin-right: auto;
+  
+  .banner.content h3 {
+    text-align: start;
+    font-weight: 300px;
+    font-size: 2.5em; 
+  }
+  
+  .banner.content button {
+    padding: 10px 20px;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: var(--mainColor);
+    background-color: var(--textColor);
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .banner.content button:hover {
+    background-color: var(--mainColor);
+    color: var(--textColor);
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .content h3 {
+      /* text-align: start; */
+      font-weight: 700;
+      font-size: 1.7em;
+      margin-left: 3rem;
+  }
 
+  .content{
+    padding: 20px;
   }
-  button{
-    padding: 10px 8px;
-    border-radius: 8px;
-    background-color: #D9D9D9;
-    font-size: 25px;
-    font-weight: 300;
-    color: #143A62;
-    margin-right: auto;
-    border-color: #143A62 2px;
+    
   }
- 
+  
+  @media only screen and (max-width: 375px) {
+  
+  }
