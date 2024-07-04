@@ -18,16 +18,11 @@
     --container-sm:95%;
 }
 
-body {
-    width: 100vw;
-    min-height: 100vh;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.body-text {
+    
     color: var(--textColor);
-    text-align: center;
-    /* font-size: clamp(12px, 0.9vw, 24px); */
+
+   
 }
 
 
