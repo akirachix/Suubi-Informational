@@ -11,17 +11,6 @@
     --textColor: #eee;
   }
   
-  body {
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--textColor);
-    text-align: center;
-    font-size: clamp(12px, 1vw, 24px);
-  }
   
   .banner {
     width: 100%;
