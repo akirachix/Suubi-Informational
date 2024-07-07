@@ -38,7 +38,7 @@ const Team = () => {
             <img src={Lavender} alt="Lavender" className="teamimages" />
             <div className="membername">
               <h4>Lavender Anyango</h4>
-              {/* <p>Software Developer</p> */}
+              
             </div>
            </div> 
            
@@ -55,7 +55,7 @@ const Team = () => {
           <img src={Faith} alt="Faith" className="teamimages" />
           <div className="membername">
             <h4>Faith Wanyoike</h4>
-            {/* <p>Product Manager</p> */}
+            
           </div>
           </div>
         {/* </div> */}
