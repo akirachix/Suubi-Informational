@@ -47,7 +47,7 @@ const Team = () => {
           <img src={Brenda} alt="Brenda" className="teamimages" />
           <div className="membername">
             <h4>Brenda Khamali</h4>
-            {/* <p>Designer</p> */}
+          
             </div>
           </div>
 
