@@ -1,9 +1,9 @@
 import "./index.css";
-import Brenda  from '../ profilesimages/Brenda.jpg';
-import Lavender from '../ profilesimages/Lavender.jpg';
-import Valentine from '../ profilesimages/Valentine.jpg';
-import Nakato from '../ profilesimages/Nakato.jpg';
-import Faith from '../ profilesimages/Faith.jpg';
+import Brenda  from "../profilesimages/Brenda.jpg";
+import Lavender from "../profilesimages/Lavender.jpg";
+import Valentine from "../profilesimages/Valentine.jpg";
+import Nakato from "../profilesimages/Nakato.jpg";
+import Faith from "../profilesimages/Faith.jpg";
 
 const Team = () => {
   return (
@@ -23,7 +23,7 @@ const Team = () => {
           
           <div className="membername">
             <h4>Nakato Musana</h4>
-            
+            {/* <p>Data Analyst</p> */}
           </div>
           </div>
 
@@ -31,14 +31,14 @@ const Team = () => {
           <img src={Valentine} alt="Valentine" className="teamimages" />
           <div className="membername">
             <h4>Valentine Nkatha</h4>
-            
+            {/* <p>Android Developer</p> */}
             </div>
           </div>
           <div className="lavender">
             <img src={Lavender} alt="Lavender" className="teamimages" />
             <div className="membername">
               <h4>Lavender Anyango</h4>
-             
+              {/* <p>Software Developer</p> */}
             </div>
            </div> 
            
@@ -47,7 +47,7 @@ const Team = () => {
           <img src={Brenda} alt="Brenda" className="teamimages" />
           <div className="membername">
             <h4>Brenda Khamali</h4>
-            
+            {/* <p>Designer</p> */}
             </div>
           </div>
 
@@ -55,6 +55,7 @@ const Team = () => {
           <img src={Faith} alt="Faith" className="teamimages" />
           <div className="membername">
             <h4>Faith Wanyoike</h4>
+            {/* <p>Product Manager</p> */}
           </div>
           </div>
         {/* </div> */}
