@@ -31,7 +31,7 @@ const Team = () => {
           <img src={Valentine} alt="Valentine" className="teamimages" />
           <div className="membername">
             <h4>Valentine Nkatha</h4>
-            {/* <p>Android Developer</p> */}
+           
             </div>
           </div>
           <div className="lavender">
