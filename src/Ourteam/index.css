@@ -1,4 +1,4 @@
-.title {
+.ourteam {
     font-family: Inter, sans-serif;
     font-size: 66px;
     text-align: center;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 1290px) {
-    .title {
+    .ourteam {
         font-size: 40px;
     }
     .meetteam {
@@ -58,7 +58,7 @@
     }
 }
 @media screen and (max-width: 950px) {
-    .title {
+    .ourteam {
         font-size: 32px;
     }
     .meetteam {
@@ -82,7 +82,7 @@
     }
 }
 @media screen and (max-width: 667px) {
-    .title {
+    .ourteam {
         font-size: 28px;
     }
     .meetteam {

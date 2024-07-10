@@ -1,17 +1,17 @@
 import "./index.css";
-import Brenda  from "../profilesimages/Brenda.jpg";
-import Lavender from "../profilesimages/Lavender.jpg";
-import Valentine from "../profilesimages/Valentine.jpg";
-import Nakato from "../profilesimages/Nakato.jpg";
-import Faith from "../profilesimages/Faith.jpg";
+import Brenda  from "../images/Brenda.jpg";
+import Lavender from "../images/Lavender.jpg";
+import Valentine from "../images/Valentine.jpg";
+import Nakato from "../images/Nakato.jpg";
+import Faith from "../images/Faith.jpg";
 
 const Team = () => {
   return (
     
       <div className="meetteam">
 
-        <div className="title">
-        <h2 className="title">Meet The Team</h2>
+        <div>
+        <h2 className="ourteam">Meet The Team</h2>
         </div>
 
         
@@ -42,7 +42,7 @@ const Team = () => {
             </div>
            </div> 
            
-           {/* <div className="teammembers"> */}
+           
           <div className="brenda">
           <img src={Brenda} alt="Brenda" className="teamimages" />
           <div className="membername">
@@ -58,7 +58,7 @@ const Team = () => {
             
           </div>
           </div>
-        {/* </div> */}
+        
         </div>
        </div>
     
