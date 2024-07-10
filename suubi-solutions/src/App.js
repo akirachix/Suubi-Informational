@@ -1,14 +1,4 @@
 import About from "./About";
-
-
-function App() {
-  return (
-   <>
-   <About/>
-   </>
-   
-  );
-}
 import React from 'react';
 import Navbar from './Navbar';
 import Landing from './Landing';
@@ -21,6 +11,7 @@ import './App.css';
       <div>
         <Navbar />
         <Landing/>
+        <About/>
         <Footer/>
       </div>
     );

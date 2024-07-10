@@ -9,6 +9,7 @@ function About(){
         <div className="container">
              <h2> About Us</h2>
         <div className='about'>
+
             
             <div>
               <img src={suubiabout} alt='About' className='aboutimage'></img>
@@ -30,4 +31,4 @@ function About(){
        
     );
 };
-export default About
+export default About;
