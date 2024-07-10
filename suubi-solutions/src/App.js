@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Landing from './Landing';
 import Footer from './Footer/index';
 import './App.css';
-
+import Team from './Ourteam';
 
   function App() {
     return (
@@ -12,6 +12,7 @@ import './App.css';
         <Navbar />
         <Landing/>
         <About/>
+        <Team/>
         <Footer/>
       </div>
     );
