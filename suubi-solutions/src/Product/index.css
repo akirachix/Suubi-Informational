@@ -230,7 +230,7 @@
   
   @media (min-width: 912px) and (max-width: 912px) {
     #dash-subtitle {
-      margin-left: -600px;
+      margin-left: 40px;
     }
   
     .products-heading{
@@ -246,7 +246,7 @@
   
   @media (min-width: 1024px) and (max-width: 1024px) {
     #dash-subtitle {
-      margin-left: -750px;
+      margin-left: 40px;
     }
     .product-subtitle {
       margin-left: 570px;
@@ -303,8 +303,10 @@
   
   @media (min-width: 801px) and (max-width: 903px) {
     #dash-subtitle {
-      margin-left: -500px;
+      margin-left: 40px;
+      /* gap: 20px; */
     }
+   
   }
   
   
