@@ -12,8 +12,8 @@ import Product from "./Product"
       <div>
         <Navbar />
         <Landing/>
-        <About/>
         <Product/>
+        <About/>
         <Team/>
         <Footer/>
       </div>
