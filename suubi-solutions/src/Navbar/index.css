@@ -7,6 +7,15 @@
     font-family: sans-serif;
 }
 
+
+
+.body-text {
+    
+    color: var(--textColor);
+
+   
+}
+
 :root {
     --white-color: #fff;
     --mainColor: #29335c;
@@ -16,16 +25,7 @@
     --container-lg: 90%;
     --container-md: 93%;
     --container-sm:95%;
-}
-
-.body-text {
-    
-    color: var(--textColor);
-
-   
-}
-
-
+  }
 
 header {
     width: 100%;
@@ -43,7 +43,6 @@ header {
 
 .logo img{
     width: 9%;
-    /* max-width: 90%; */
     height: auto;
    
 }
