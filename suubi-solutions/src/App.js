@@ -10,7 +10,7 @@ import './App.css';
       <div>
         <Navbar />
         <Landing/>
-        <Footer/>
+        <Footer />
       </div>
     );
   }
