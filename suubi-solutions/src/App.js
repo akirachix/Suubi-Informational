@@ -1,15 +1,19 @@
-
+import React from 'react';
+import Navbar from './Navbar';
+import Landing from './Landing';
+import Footer from './Footer/index';
 import './App.css';
 
-import Footer from './Footer/index';
 
-function App() {
-  return (
-    <div className="App">
-      
-      <Footer/>
-    </div>
-  );
-}
+  function App() {
+    return (
+      <div>
+        <Navbar />
+        <Landing/>
+        <Footer />
+      </div>
+    );
+  }
+
 
 export default App;
