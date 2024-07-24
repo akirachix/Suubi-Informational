@@ -1,8 +1,8 @@
 import  './index.css'
-import suubiabout from '../About/Aboutimages/suubiabout.png'
-import quality from '../About/Aboutimages/quality.jpeg'
-import qualitys from '../About/Aboutimages/qualitys.png'
-import trusts from '../About/Aboutimages/trusts.png'
+import suubiabout from '../About/Aboutimages/Suubiabout.png'
+import quality from '../About/Aboutimages/efficiency.png'
+import qualitys from '../About/Aboutimages/quality.png'
+import trusts from '../About/Aboutimages/trust.png'
 
 function About(){
     return(
