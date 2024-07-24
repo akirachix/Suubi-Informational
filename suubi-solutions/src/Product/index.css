@@ -340,9 +340,7 @@
   }
   
   @media (min-width: 768px) and (max-width: 798px) {
-    /* #dash-subtitle {
-      margin-left: -500px;
-    } */
+   
     #description{
       margin-right: 10%;
       margin-left:10% ;
@@ -436,4 +434,4 @@
     }
   }
   
-  /* ********************************************************************************************* */
+  
