@@ -11,8 +11,8 @@ function App() {
     <div>
       <Navbar />
       <Landing />
-      <Footer />
       <Product />
+      <Footer />
     </div>
   );
 }

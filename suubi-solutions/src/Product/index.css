@@ -418,6 +418,22 @@
       margin-right: 500px;
     }
   }
+
+
+
+  @media (min-width: 1668px) and (max-width: 1668px) and (min-height:898px) and (min-height:898px){
+    .product-subtitle {
+      /* margin-right: 100px; */
+      margin-left: 1300px;
+    }
+  }
   
+
+  @media (min-width: 912px) and (max-width: 912px) and (min-height:1368px) and (min-height:1368px){
+    .product-subtitle {
+      /* margin-right: 100px; */
+      margin-left: 54 0px;
+    }
+  }
   
   /* ********************************************************************************************* */

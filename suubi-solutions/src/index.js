@@ -3,20 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
-// import About from './about';
-=======
 
->>>>>>> origin/dev
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-<<<<<<< HEAD
-    {/* <About/> */}
-=======
->>>>>>> origin/dev
   </React.StrictMode>
 );
 
