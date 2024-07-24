@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import './index.css'
-import logo from '../Assets/logo.jpg'
+import './index.css';
+import logo from '../Assets/logo.jpg';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 function Navbar() {
@@ -20,10 +20,6 @@ function Navbar() {
     }
   };
 
-  const scrollToFooter = () => {
-    scrollToSection('footer');
-  };
-
   return (
     <Router>
       <header>
@@ -31,10 +27,10 @@ function Navbar() {
           <img src={logo} alt="Logo" />
         </div>
         <nav ref={navRef}>
-          <Link to="/#home" smooth={true} onClick={() => scrollToSection('home')}> Home</Link>
-          <Link to="/#products" smooth={true} onClick={() => scrollToSection('products')}>Products</Link>
-          <Link to="/#team" smooth={true} onClick={() => scrollToSection('team')}>The Team</Link>
-          <Link to="/#about" smooth={true} onClick={scrollToFooter}>About Us</Link>
+          <Link to="/#home" onClick={() => scrollToSection('home')}> Home</Link>
+          <Link to="/#products" onClick={() => scrollToSection('products')}>Products</Link>
+          <Link to="/#team" onClick={() => scrollToSection('team')}>The Team</Link>
+          <Link to="/#about" onClick={() => scrollToSection('about')}>About Us</Link>
           <button
             className="nav-btn nav-close-btn"
             onClick={showNavbar}>
