@@ -19,7 +19,6 @@ function Navbar() {
       showNavbar();
     }
   };
-
   return (
     <Router>
       <header>
